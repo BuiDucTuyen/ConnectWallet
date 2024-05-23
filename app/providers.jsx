@@ -23,13 +23,13 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 );
 
 const { wallets } = getDefaultWallets({
-  appName: "RainbowKit demo",
+  appName: "Connect Wallet",
   projectId,
   chains,
 });
 
 const demoAppInfo = {
-  appName: "Rainbowkit Demo",
+  appName: "Connect Wallet",
 };
 
 const connectors = connectorsForWallets([
