@@ -15,7 +15,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { polygonMumbai, sepolia, lineaTestnet } from "wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
 
-const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectId = "d5e1f5132f8f3c22fbb333bfc93a6574";
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [polygonMumbai, sepolia, lineaTestnet],
